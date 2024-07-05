@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5; /* Fallback background color */
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('bgimage3.jpg'); /* Specify your background image path */
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+        }
+
+        .welcome-container {
+            background-color: rgba(116, 173, 109, 0.605); /* Semi-transparent white background */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(82, 143, 80, 0.2);
+            width: 320px;
+            text-align: center;
+        }
+s
+        .welcome-container h2 {
+            margin-bottom: 20px;
+            color: #0e3a21; 
+        }
+
+        .welcome-text {
+            margin-bottom: 30px;
+            color: #194e2f; 
+            font-weight: bold;
+        }
+
+        .action-link {
+            color: #194e2f; 
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+            font-weight: bold;
+        }
+
+        .action-link:hover {
+            color: #32633b; /* Darker Blue on hover */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="welcome-container">
+    <h2>Skin solución</h2>
+    <p class="welcome-text">Explore our amazing platform. <br>Choose an action below:</p>
+    
+    <a href="http://localhost/project/login.php" class="action-link">Login</a>
+    <span style="margin: 0 10px;">or</span>
+    <a href="http://localhost/project/signup.php" class="action-link">Sign up</a>
+</div>
+
+</body>
+</html>
